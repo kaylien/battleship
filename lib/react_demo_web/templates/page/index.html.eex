@@ -1,0 +1,12 @@
+<!-- lib/react_demo_web/templates/page/index.html.eex -->
+<!-- replace contents: -->
+
+
+  <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+<div id="header">
+  <p>Header</p>
+</div>
+
+<div id="main">
+  <p>Main</p>
+</div>
